@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(212,221,238);
+	justify-content: center;
+
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	margin: 0 35px;
+}
+.container {
+	display: flex;
+}
+
+.container-main {
+	width: 70%;
+	text-align: center;
+	background-color: #ffffff;
+	padding: 30px 10px;
+	font-size: 13px;
+}
+
+.container-main p a{
+	text-decoration: none;
+	color: rgb(244,65,191);
+	font-weight: bold;
+}
+
+.container-main img {
+	height: 150px;
+}
+
+.login form {
+	text-align: center;
+	padding: 15px;
+	background-color: rgb(232,238,250);
+	border: 3px solid #ffffff;
+	margin-left: 10px;
+}
+.login form input[type="checkbox"] {
+	margin-right: 5px;
+	margin-top: 2px;
+}
+.login form p {
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+.login form p:first-child {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.login form button {
+	padding: 5px;
+	margin: 5px 0;
+	margin-right: 105px;
+	
+}
+.login form a {
+	font-size: 13px;
+	color: rgb(86,95,174);
+}
+.align-esq {
+	margin-right: 35px;
+	margin-top: 5px;
+}
+
+
+#save-login {
+	font-size: 13px;
+	margin-left: 4px;
+}
+#aviso {
+	font-size: 10px;
+	color: rgb(171,164,182);
+}
+#login-footer {
+	background-color: rgb(232,238,250);
+	border: 3px solid #ffffff;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 15px 20px;
+}
+#login-footer a {
+	font-weight: bold;
+	color: rgb(33,93,215);
+}
+#login-footer p {
+	margin-bottom: 5px;
+}
+
+footer {
+	display: flex;
+	background-color: rgb(188,205,233);
+	margin-top: 15px;
+	list-style: none;
+	width: 100%;
+	padding: 5px 0;
+	font-size: 13px;
+
+}
+footer li {
+	margin-right: 8px;
+}
+footer li a {
+	color: rgb(61,91,158);
+}
+
+@media (max-width: 700px) {
+
+	.container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.container-main {
+		margin-bottom: 20px;
+		width: 100%;
+
+	}
+	.login {
+		margin-right:  10px;
+		width: 102%;
+		text-align: center;
+		
+	}
+	main {
+		margin-top: 150px;
+	}
+}
