@@ -65,7 +65,7 @@ main {
 	padding: 5px;
 	margin: 5px 0;
 	margin-right: 105px;
-	
+
 }
 .login form a {
 	font-size: 13px;
@@ -107,12 +107,15 @@ footer {
 	margin-top: 15px;
 	list-style: none;
 	width: 100%;
-	padding: 5px 0;
+	padding: 5px 150px;
 	font-size: 13px;
+	justify-content: space-between;
+
 
 }
 footer li {
 	margin-right: 8px;
+
 }
 footer li a {
 	color: rgb(61,91,158);
@@ -138,5 +141,9 @@ footer li a {
 	}
 	main {
 		margin-top: 150px;
+	}
+	footer {
+		padding: 5px 80px;
+		margin-bottom: 30px;
 	}
 }
